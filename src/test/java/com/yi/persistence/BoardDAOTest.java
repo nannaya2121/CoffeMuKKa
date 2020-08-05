@@ -39,7 +39,7 @@ public class BoardDAOTest {
 		vo.setThemeNo(new ThemeVO(1));
 		vo.setWritingTitle("테스트제목");
 		vo.setWritingContent("테스트 글내용");
-		vo.setAddress("대구광역시");
+		vo.setAddress("부산광역시");
 		System.out.println(vo.toString());
 		System.out.println(vo.getBoardNo2().getBoardNo());
 		dao.recommendInsert(vo);
